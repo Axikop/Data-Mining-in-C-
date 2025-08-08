@@ -1,4 +1,4 @@
-C++ K-Means Clustering Visualizer
+### C++ K-Means Clustering Visualizer
 
 An interactive data mining application built from scratch in C++ that implements the K-Means clustering algorithm and visualizes its behavior in real-time using the SDL2 library.
 
@@ -26,7 +26,7 @@ The final result clearly shows how K-Means incorrectly splits crescent-shaped cl
 ![Final State](https://github.com/Axikop/Data-Mining-in-C-/blob/main/limit.png?raw=true)
 
 
-⚙️ How to Build and Run
+### ⚙️ How to Build and Run
 
 ✅ 1. Prerequisites
 A C++ compiler (recommended: g++ with MinGW-w64 on Windows)
@@ -37,8 +37,9 @@ SDL2 development library, placed under an SDL2/ directory
 Open a terminal, navigate to the root directory, and run:
 
 bash
+```
 g++ main.cpp -ISDL2/include -LSDL2/lib -lmingw32 -lSDL2main -lSDL2 -o output/visualizer.exe
-
+```
 
 📦 3. Prepare to Run
 Copy the SDL2 runtime file before running:
@@ -49,7 +50,7 @@ copy SDL2/bin/SDL2.dll output/
 
 🚀 4. Execution
 Run the application:
-
+```
 ./output/visualizer.exe
-
+```
 
